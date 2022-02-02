@@ -117,31 +117,3 @@ if __name__ == '__main__':
 
 # except KeyboardInterrupt:
 #    GPIO.cleanup()
-
-# def take_input():
-#     global direction
-#     while True:
-#         x = input("Enter a direction: ")
-#         if x == "f":
-#             print("forward")
-#             direction = 'forward'
-#         elif x == "l":
-#             print("left")
-#             direction = 'left'
-#         elif x == "b":
-#             print("backward")
-#             direction = 'backward'
-#         elif x == "r":
-#             print("right")
-#             direction = 'right'
-#         elif x == "s":
-#             print("stop")
-#             direction = 'stop'
-#         elif x == "q":
-#             direction = 'stop'
-#             GPIO.cleanup()
-#             print("quit")
-#             break
-#         else:
-#             print("invalid input")
-#             continue
